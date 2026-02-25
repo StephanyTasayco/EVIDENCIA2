@@ -136,13 +136,3 @@ p.footer {
     border-top: 1px solid rgba(0, 220, 255, 0.1);
     margin-top: 20px;
 }
-img.sedeimglima {
-    transition: transform 0.3s ease;
-}
-img.sedeimglima:hover {
-    transform: scale(1.05);
-}
-
-img.sedeimg {
-    transition: transform 0.3s ease;
-}
