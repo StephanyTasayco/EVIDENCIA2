@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0 40px;
+    background-color: rgb(18, 20, 26);
+    color: rgb(0, 220, 255);
+    font-family: "Rajdhani", sans-serif;
+}
+
+/* LINEAS */
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 220, 255, 0.12);
+    margin: 4px;
+}
+
+
+/* MINI MENU */
+
+ul.minimenu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px 0;
+    margin: 0;
+}
+
+ul.minimenu li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    color: rgb(0, 220, 255);
+}
+
+ul.minimenu li a:hover {
+    color: white;
+}
+
+
+/* MENU */
+
+ul.menuprincipal {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    margin: 0;
+}
+
+ul.menuprincipal li a {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 20px;
+    margin: 20px;
+    color: cyan;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+}
+
+ul.menuprincipal li a:hover {
+    color: rgb(0, 220, 255);
+    background-color: rgba(0, 220, 255, 0.08);
+    border-radius: 8px;
+}
+
+ul.menuprincipal li a.activo {
+    background-color: rgb(0, 220, 255);
+    color: black;
+    border-radius: 8px;
+}
+
+tr{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(0, 220, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.producto-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 25px rgba(0, 220, 255, 0.3);
+}
+
+.producto-card h3 {
+    margin: 15px 0 5px 0;
+    font-size: 18px;
+}
+
+.producto-card p {
+    font-weight: 150;
+    color: rgb(0, 220, 255);
+}
+
+.categoria-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+/* CATEGORIA */
+
+.categoria-card h3 {
+    margin-top: 0;
+    color: rgb(0, 220, 255);
+}
+
+.categoria-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categoria-card li {
+    padding: 7px 0;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.categoria-card li:hover {
+    transform: scale(1.05);
+    color: white;
+}
+

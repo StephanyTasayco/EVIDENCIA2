@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0 40px;
+    background-color: rgb(18, 20, 26);
+    color: rgb(0, 220, 255);
+    font-family: "Rajdhani", sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 220, 255, 0.12);
+    margin: 4px;
+}
+
+hr.separadortabla {
+    border: none;
+    border-top: 1px solid rgba(0, 220, 255, 0.12);
+    margin: 5px 0;
+}
+
+
+img.banner {
+    height: 600px;
+    width: 100%;
+}
+
+h2.intro {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(0, 220, 255);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+p.intro {
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    color: rgb(0, 180, 210);
+
+}
+
+ul.minimenu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px 0;
+    margin: 0;
+}
+
+ul.minimenu li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    color: rgb(0, 220, 255);
+    transition: color 0.3s;
+}
+
+ul.minimenu li a:hover {
+    color: white;
+}
+
+ul.menuprincipal {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    margin: 0;
+}
+
+ul.menuprincipal li a {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 20px;
+    margin: 20px;
+    color: cyan;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+ul.menuprincipal li a:hover {
+    color: rgb(0, 220, 255);
+    background-color: rgba(0, 220, 255, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 220, 255, 0.2);
+}
+
+ul.menuprincipal li a.activo {
+    background-color: rgb(0, 220, 255);
+    color: black;
+    border-radius: 8px;
+}
+
+h2.tituloproductos {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(0, 220, 255);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+table.tablaproductos {
+    width: 100%;
+    margin: 0;
+}
+
+td.espaciador {
+    width: 1%;
+}
+
+td.imgbox {
+    background-color: rgb(29, 30, 34);
+    border: 1px solid rgba(0, 220, 255, 0.18);
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s, border-color 0.3s;
+}
+
+td.imgbox:hover {
+    box-shadow: 0 0 24px rgba(0, 220, 255, 0.25), 0 6px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    border-color: rgba(0, 220, 255, 0.6);
+}
+
+td.imgbox img {
+    transition: transform 0.3s;
+}
+
+td.imgbox:hover img {
+    transform: scale(1.07);
+}
+
+td.imgbox p {
+    color: rgb(0, 220, 255);
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    padding: 5px;
+}
+
+
+td.imgbox p.precio {
+    color: rgb(0, 220, 255);
+    font-weight: 700;
+}
+
+p.botondereferencia {
+    text-align: center;
+}
+
+p.botondereferencia a {
+    color: cyan;
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 1px solid rgb(0, 140, 180);
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+p.botondereferencia a:hover {
+    background-color: rgb(0, 220, 255);
+    color: black;
+    box-shadow: 0 0 20px rgba(0, 220, 255, 0.5);
+    transform: scale(1.04);
+}
+
+p.footer {
+    text-align: center;
+    padding: 22px 0;
+    color: rgba(0, 220, 255, 0.3);
+    font-size: 13px;
+    border-top: 1px solid rgba(0, 220, 255, 0.1);
+    margin-top: 20px;
+}

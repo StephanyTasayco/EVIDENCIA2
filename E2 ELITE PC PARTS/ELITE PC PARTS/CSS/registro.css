@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0 40px;
+    background-color: rgb(18, 20, 26);
+    color: rgb(0, 220, 255);
+    font-family: "Rajdhani", sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 220, 255, 0.12);
+    margin: 4px 0;
+}
+
+ul.minimenu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px 0;
+    margin: 0;
+}
+
+ul.minimenu li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    color: rgb(0, 220, 255);
+    transition: color 0.3s;
+}
+
+ul.minimenu li a:hover { 
+    color: white;
+}
+
+ul.minimenu li a.activo {
+    background-color: rgb(0, 220, 255);
+    color: black;
+    border-radius: 8px;
+}
+
+ul.menuprincipal {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    margin: 0;
+}
+
+ul.menuprincipal li a {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 20px;
+    margin: 20px;
+    color: cyan;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+ul.menuprincipal li a:hover {
+    color: rgb(0, 220, 255);
+    background-color: rgba(0, 220, 255, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 220, 255, 0.2);
+}
+
+ul.menuprincipal li a.activo {
+    background-color: rgb(0, 220, 255);
+    color: black;
+    border-radius: 8px;
+}
+
+table.tarjetaregistro {
+    width: 900px;
+    background-color: rgb(24, 25, 31);
+    border: 1px solid rgba(0, 220, 255, 0.25);
+    border-radius: 16px;
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+table.tarjetaregistro:hover {
+    box-shadow: 0 0 40px rgba(0, 220, 255, 0.15), 0 8px 32px rgba(0, 0, 0, 0.5);
+    transform: translateY(-4px);
+}
+
+table.tarjetaregistro td {
+     padding: 30px 30px;
+}
+
+table.tablacampos {
+    width: 100%;
+}
+
+table.tablacampos td {
+    padding: 0;
+    border: none;
+}
+
+p.subtituloentrar {
+    text-align: center;
+    font-size: 26px;
+    color: rgba(18, 222, 253, 0.6);
+    padding: 0;
+    margin: 0;
+}
+
+p.etiquetacampo {
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+    color: rgba(0, 220, 255, 0.6);
+    margin: 0 0 4px 0;
+    padding: 0;
+}
+
+p.campotexto {
+    padding: 14px 16px;
+    background-color: rgb(24, 25, 31);
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    border-radius: 8px;
+    color: rgba(0, 220, 255, 0.4);
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    transition: border-color 0.3s, box-shadow 0.3s, color 0.3s, transform 0.2s;
+}
+
+p.campotexto:hover {
+    border-color: rgba(0, 220, 255, 0.8);
+    box-shadow: 0 0 12px rgba(0, 220, 255, 0.25);
+    color: rgba(0, 220, 255, 0.75);
+    transform: translateX(4px);
+}
+
+a.botoncrearcuenta {
+    padding: 14px 60px;
+    background-color: rgb(0, 220, 255);
+    color: black;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+a.botoncrearcuenta:hover {
+    background-color: rgb(0, 180, 210);
+    box-shadow: 0 0 24px rgba(0, 220, 255, 0.5), 0 4px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.04);
+}
+
+p.registrate {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 220, 255, 0.6);
+    margin: 0;
+}
+
+p.registrate a {
+    color: rgb(0, 220, 255);
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+p.registrate a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(0, 220, 255, 0.7);
+}
+
+p.footer {
+    text-align: center;
+    padding: 22px 0;
+    color: rgba(0, 220, 255, 0.3);
+    font-size: 13px;
+    border-top: 1px solid rgba(0, 220, 255, 0.1);
+    margin-top: 20px;
+}
+
+p.botondereferencia {
+    text-align: center;
+}

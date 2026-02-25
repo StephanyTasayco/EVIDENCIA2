@@ -1,0 +1,94 @@
+
+.subtitulopagina {
+    font-size: 26px;
+    text-shadow: 0 0 16px rgba(0, 220, 255, 0.5);
+}
+
+h3.subtitulo {
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 220, 255);
+    text-shadow: 0 0 14px rgba(0, 220, 255, 0.9);
+}
+
+.imagenmapa {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 220, 255, 0.3);
+}
+
+.imagenlima {
+    width: 100%;
+    height: 310px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenlima:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 220, 255, 0.3);
+}
+
+.imagenarequipa {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenarequipa:hover {
+    transform: translateX(-10px);
+    box-shadow: 0 0 20px rgba(0, 220, 255, 0.3);
+}
+
+.imagencusco {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagencusco:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 220, 255, 0.3);
+}
+
+.imagentrujillo {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 220, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagentrujillo:hover {
+    transform: translateX(10px);
+    box-shadow: 0 0 20px rgba(0, 220, 255, 0.3);
+}
+
+.titulosede {
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    color: rgb(0, 220, 255);
+    margin: 10px 0 4px 0;
+    text-shadow: 0 0 14px rgba(0, 220, 255, 0.9);
+}
+
+.direccionsede {
+    font-size: 14px;
+    color: rgba(0, 220, 255, 0.7);
+    margin: 0;
+}
+
+p.footer {
+    text-align: center;
+    padding: 22px 0;
+    color: rgba(0, 220, 255, 0.3);
+    font-size: 13px;
+    border-top: 1px solid rgba(0, 220, 255, 0.1);
+    margin-top: 20px;
+}
